@@ -11,6 +11,10 @@ function Page() {
 
   //RENDIRAZAÇÃO CONDICIONAL OU CONDIÇÃO TERNARIA
 
+  const existem = ""
+  const qualculto = false
+  const botao = "Ativo"
+
   
   function initialGA() {
     ReactGA.initialize("UA-170909874-1");
@@ -135,7 +139,7 @@ const existe = true
       <Head>
         <title>Igreja Batista Água Viva - Ribeirão Pires</title>
       </Head>
-      {existe && (
+      {!existem && (
       <div className="container">
         <div className="header">
           <img src="/images/logo.jpg" />
@@ -235,12 +239,10 @@ const existe = true
                       {/* {qtdSabado < qtdMAxima && (
                         <option value="sabado">Sábado - 19hs</option>
                       )} */}
-                      {qtdDomingoManha < qtdMAxima && (
-                        <option value="manha">Sábado - 15hs</option>
-                      )}
-                      {qtdDomingoNoite < qtdMAxima && (
-                        <option value="noite">Sábado - 17:30hs </option>
-                      )}
+                      
+                        {qualculto ? (<option value="manha">Sábado - 15hs</option>) : (<option value="manha">Terça - 18hs</option>)}
+                        {qualculto ? (<option value="noite">Sábado - 17:30hs </option>) : (<option value="noite">Terça - 20hs </option>)}
+                      
                     </select>
                     {/* <br></br>
                     <label>Quantas crianças vai levar para o cultinho?</label> */}
@@ -281,7 +283,7 @@ const existe = true
                         )}
                       </span> */}
                       <span>
-                        Sábado 15:00hs -
+                        Sábado 15:00hs
                         {qtdDomingoManha >= qtdMAxima && (
                           <small className="red"> vagas encerradas</small>
                         )}
@@ -335,7 +337,9 @@ const existe = true
                     </div>
 
                     <br></br>
+                    {botao === "Ativo" && (
                     <button onClick={salve}>Inscrever</button>
+                    )}
                     <a href="/listagem.html" className="listagem">
                       Verifique a listagem
                     </a>
