@@ -1,97 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
-/******/ })
-/************************************************************************/
-/******/ ({
+webpackHotUpdate("static\\development\\pages\\index.js",{
 
 /***/ "./pages/index.jsx":
 /*!*************************!*\
@@ -102,13 +9,12 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-ga */ "react-ga");
-/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\Users\\Mariana Ipolito\\Desktop\\Agua-Viva\\pages\\index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -120,49 +26,54 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function Page() {
   //RENDIRAZAÇÃO CONDICIONAL OU CONDIÇÃO TERNARIA
-  const existem = "";
-  const qualculto = false;
-  const botao = "Ativo";
+  var existem = "";
+  var qualculto = true;
+  var botao = "Ativo";
 
   function initialGA() {
-    react_ga__WEBPACK_IMPORTED_MODULE_2___default.a.initialize("UA-170909874-1");
-    react_ga__WEBPACK_IMPORTED_MODULE_2___default.a.pageview(urlLocal);
+    react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].initialize("UA-170909874-1");
+    react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].pageview(urlLocal);
   }
 
-  let urlLocal;
+  var urlLocal;
 
-  if (false) { var _window$location; }
+  if (true) {
+    var _window$location;
+
+    urlLocal = (_window$location = window.location) === null || _window$location === void 0 ? void 0 : _window$location.href;
+  }
 
   initialGA();
-  const {
-    0: loading,
-    1: setLoading
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true);
-  const {
-    0: data,
-    1: setData
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: nome,
-    1: setNome
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: rede,
-    1: setRede
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: sobrenome,
-    1: setSobrenome
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: culto,
-    1: setCulto
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: criancas,
-    1: setCriancas
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const url = "https://aguaviva-rp.firebaseio.com/teste.json";
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      loading = _useState[0],
+      setLoading = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      data = _useState2[0],
+      setData = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      nome = _useState3[0],
+      setNome = _useState3[1];
+
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      rede = _useState4[0],
+      setRede = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      sobrenome = _useState5[0],
+      setSobrenome = _useState5[1];
+
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      culto = _useState6[0],
+      setCulto = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      criancas = _useState7[0],
+      setCriancas = _useState7[1];
+
+  var url = "https://aguaviva-rp.firebaseio.com/teste.json";
   var date = new Date();
   var dia_sem = date.getDay(); // var dateMoment = moment(`${date}`);
   // dateMoment.tz("America/Sao_Paulo").format("ha z");
@@ -170,57 +81,57 @@ function Page() {
   // const novaData = new Date(dateMoment);
   // var dia_sem = moment(novaData).format("dddd");
 
-  const {
-    0: qtdSabado,
-    1: setQtdSabado
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: qtdDomingoManha,
-    1: setQtdDomingoManha
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: qtdDomingoNoite,
-    1: setQtdDomingoNoite
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
-  const {
-    0: nomeLimpar,
-    1: setNomeLimpar
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true);
-  const {
-    0: sobrenomeLimpar,
-    1: setSobrenomeLimpar
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true);
-  const {
-    0: redeLimpar,
-    1: setRedeLimpar
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true);
-  const {
-    0: criancasLimpar,
-    1: setCriancasLimpar
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true);
-  const {
-    0: listagem,
-    1: setListagem
-  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      qtdSabado = _useState8[0],
+      setQtdSabado = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      qtdDomingoManha = _useState9[0],
+      setQtdDomingoManha = _useState9[1];
+
+  var _useState10 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      qtdDomingoNoite = _useState10[0],
+      setQtdDomingoNoite = _useState10[1];
+
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      nomeLimpar = _useState11[0],
+      setNomeLimpar = _useState11[1];
+
+  var _useState12 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      sobrenomeLimpar = _useState12[0],
+      setSobrenomeLimpar = _useState12[1];
+
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      redeLimpar = _useState13[0],
+      setRedeLimpar = _useState13[1];
+
+  var _useState14 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(true),
+      criancasLimpar = _useState14[0],
+      setCriancasLimpar = _useState14[1];
+
+  var _useState15 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(),
+      listagem = _useState15[0],
+      setListagem = _useState15[1];
+
   var qtdMAxima = 75;
-  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     setLoading(true);
-    axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(url).then(res => {
+    axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(url).then(function (res) {
       setData(res.data);
       setLoading(false);
     });
   }, []);
-  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
     if (data) {
-      const cultoSabado = Object.keys(data).filter(pessoa => {
+      var cultoSabado = Object.keys(data).filter(function (pessoa) {
         return data[pessoa].culto == "sabado";
       });
       setQtdSabado(cultoSabado.length);
-      const cultoDomingoManha = Object.keys(data).filter(pessoa => {
+      var cultoDomingoManha = Object.keys(data).filter(function (pessoa) {
         return data[pessoa].culto == "manha";
       });
       setQtdDomingoManha(cultoDomingoManha.length);
-      const cultoDomingoNoite = Object.keys(data).filter(pessoa => {
+      var cultoDomingoNoite = Object.keys(data).filter(function (pessoa) {
         return data[pessoa].culto == "noite";
       });
       setQtdDomingoNoite(cultoDomingoNoite.length);
@@ -235,22 +146,24 @@ function Page() {
     }
   }, [data]);
 
-  const doRemove = id => {
-    remove(`https://aguaviva-rp.firebaseio.com/teste/${id}.json`);
+  var doRemove = function doRemove(id) {
+    remove("https://aguaviva-rp.firebaseio.com/teste/".concat(id, ".json"));
   };
 
-  const remove = url => {
-    axios__WEBPACK_IMPORTED_MODULE_3___default.a.delete(url).then(() => {
-      console.log(`você deletou ${url}`);
+  var remove = function remove(url) {
+    axios__WEBPACK_IMPORTED_MODULE_3___default.a["delete"](url).then(function () {
+      console.log("voc\xEA deletou ".concat(url));
     });
   };
 
   var redirect;
 
-  if (false) {}
+  if (true) {
+    redirect = window.location.href;
+  }
 
-  const post = data => {
-    axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(url, data).then(res => {
+  var post = function post(data) {
+    axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(url, data).then(function (res) {
       setNomeLimpar(!nomeLimpar);
       setSobrenomeLimpar(!sobrenomeLimpar);
       setRedeLimpar(!redeLimpar);
@@ -260,9 +173,9 @@ function Page() {
     });
   };
 
-  const salve = () => {
+  var salve = function salve() {
     if (nome && sobrenome && rede && culto) {
-      const existeCriancas = criancas ? criancas : "0";
+      var existeCriancas = criancas ? criancas : "0";
       post({
         nome: nome.toLowerCase(),
         sobrenome: sobrenome,
@@ -277,7 +190,7 @@ function Page() {
   }; // null | "" | undefined | false
 
 
-  const existe = true; // 1 se eu colocar minha variavel com um valor que existe meu select vai exibir os cultos de sabados
+  var existe = true; // 1 se eu colocar minha variavel com um valor que existe meu select vai exibir os cultos de sabados
   //quando nao atender ela vai exibir cultos de terça feira
   // 2 criar uma segunda variavel que se for igual a "Ativo" exiba o botao inscrever
 
@@ -344,7 +257,9 @@ function Page() {
       columnNumber: 21
     }
   }, "Nome"), nomeLimpar && __jsx("input", {
-    onKeyUp: e => setNome(e.currentTarget.value),
+    onKeyUp: function onKeyUp(e) {
+      return setNome(e.currentTarget.value);
+    },
     type: "text",
     placeholder: "Nome ",
     className: "input_name",
@@ -356,7 +271,9 @@ function Page() {
       columnNumber: 23
     }
   }), !nomeLimpar && __jsx("input", {
-    onKeyUp: e => setNome(e.currentTarget.value),
+    onKeyUp: function onKeyUp(e) {
+      return setNome(e.currentTarget.value);
+    },
     type: "text",
     placeholder: "Nome ",
     className: "input_name",
@@ -382,7 +299,9 @@ function Page() {
       columnNumber: 21
     }
   }, "Sobrenome"), sobrenomeLimpar && __jsx("input", {
-    onKeyUp: e => setSobrenome(e.currentTarget.value),
+    onKeyUp: function onKeyUp(e) {
+      return setSobrenome(e.currentTarget.value);
+    },
     type: "text",
     placeholder: "Sobrenome",
     required: true,
@@ -393,7 +312,9 @@ function Page() {
       columnNumber: 23
     }
   }), !sobrenomeLimpar && __jsx("input", {
-    onKeyUp: e => setSobrenome(e.currentTarget.value),
+    onKeyUp: function onKeyUp(e) {
+      return setSobrenome(e.currentTarget.value);
+    },
     type: "text",
     placeholder: "Sobrenome",
     required: true,
@@ -418,7 +339,7 @@ function Page() {
       columnNumber: 21
     }
   }, "Discipulado"), redeLimpar && __jsx("select", {
-    onChange: e => {
+    onChange: function onChange(e) {
       setRede(e.target.value);
     },
     required: true,
@@ -477,7 +398,7 @@ function Page() {
       columnNumber: 25
     }
   }, "Elaine Jeremias ")), !redeLimpar && __jsx("select", {
-    onChange: e => {
+    onChange: function onChange(e) {
       setRede(e.target.value);
     },
     required: true,
@@ -550,7 +471,7 @@ function Page() {
       columnNumber: 21
     }
   }, "Qual culto deseja ir?"), __jsx("select", {
-    onChange: e => {
+    onChange: function onChange(e) {
       setCulto(e.target.value);
     },
     required: true,
@@ -789,63 +710,7 @@ function Page() {
 
 /* harmony default export */ __webpack_exports__["default"] = (Page);
 
-/***/ }),
-
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/index.jsx ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! C:\Users\Mariana Ipolito\Desktop\Agua-Viva\pages\index.jsx */"./pages/index.jsx");
-
-
-/***/ }),
-
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-ga":
-/*!***************************!*\
-  !*** external "react-ga" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-ga");
-
 /***/ })
 
-/******/ });
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=index.js.e82118033963518eb413.hot-update.js.map

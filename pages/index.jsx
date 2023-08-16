@@ -239,10 +239,10 @@ const existe = true
                       {/* {qtdSabado < qtdMAxima && (
                         <option value="sabado">Sábado - 19hs</option>
                       )} */}
-                      
-                        {qualculto ? (<option value="manha">Sábado - 15hs</option>) : (<option value="manha">Terça - 18hs</option>)}
-                        {qualculto ? (<option value="noite">Sábado - 17:30hs </option>) : (<option value="noite">Terça - 20hs </option>)}
-                      
+                      {qtdDomingoManha < qtdMAxima &&
+                        <>{qualculto ? (<option value="manha">Sábado - 15hs</option>) : (<option value="manha">Terça - 18hs</option>)}</>}
+                      {qtdDomingoManha < qtdMAxima &&  
+                      <>{qualculto ? (<option value="noite">Sábado - 17:30hs </option>) : (<option value="noite">Terça - 20hs </option>)}</>}
                     </select>
                     {/* <br></br>
                     <label>Quantas crianças vai levar para o cultinho?</label> */}

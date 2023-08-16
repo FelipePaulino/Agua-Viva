@@ -2075,10 +2075,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CLenovo%5CDocuments%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true!./":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CLenovo%5CDocuments%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMariana%20Ipolito%5CDesktop%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true!./":
+/*!*************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMariana%20Ipolito%5CDesktop%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true ***!
+  \*************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4759,7 +4759,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-ga */ "./node_modules/react-ga/dist/esm/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Lenovo\\Documents\\Agua-Viva\\pages\\index.jsx";
+var _jsxFileName = "C:\\Users\\Mariana Ipolito\\Desktop\\Agua-Viva\\pages\\index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -4769,6 +4769,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 function Page() {
   //RENDIRAZAÇÃO CONDICIONAL OU CONDIÇÃO TERNARIA
+  var existem = "";
+  var qualculto = false;
+  var botao = "Ativo";
+
   function initialGA() {
     react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].initialize("UA-170909874-1");
     react_ga__WEBPACK_IMPORTED_MODULE_2__["default"].pageview(urlLocal);
@@ -4937,22 +4941,22 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 139,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 140,
       columnNumber: 9
     }
-  }, "Igreja Batista \xC1gua Viva - Ribeir\xE3o Pires")), existe && __jsx("div", {
+  }, "Igreja Batista \xC1gua Viva - Ribeir\xE3o Pires")), !existem && __jsx("div", {
     className: "container",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 143,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -4960,7 +4964,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 144,
       columnNumber: 9
     }
   }, __jsx("img", {
@@ -4968,14 +4972,14 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 145,
       columnNumber: 11
     }
   }), __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 146,
       columnNumber: 11
     }
   }, "Formul\xE1rio para culto dos jovens (24/04)")), (qtdDomingoManha < qtdMAxima || qtdDomingoNoite < qtdMAxima) && // <>
@@ -4985,14 +4989,14 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 155,
       columnNumber: 19
     }
   }, __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 156,
       columnNumber: 21
     }
   }, "Nome"), nomeLimpar && __jsx("input", {
@@ -5006,7 +5010,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 158,
       columnNumber: 23
     }
   }), !nomeLimpar && __jsx("input", {
@@ -5020,21 +5024,21 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 167,
       columnNumber: 23
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 176,
       columnNumber: 21
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 177,
       columnNumber: 21
     }
   }, "Sobrenome"), sobrenomeLimpar && __jsx("input", {
@@ -5047,7 +5051,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 179,
       columnNumber: 23
     }
   }), !sobrenomeLimpar && __jsx("input", {
@@ -5060,21 +5064,21 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 187,
       columnNumber: 23
     }
   }), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 194,
       columnNumber: 21
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 195,
       columnNumber: 21
     }
   }, "Discipulado"), redeLimpar && __jsx("select", {
@@ -5085,7 +5089,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 197,
       columnNumber: 23
     }
   }, __jsx("option", {
@@ -5093,7 +5097,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 203,
       columnNumber: 25
     }
   }, "Selecione seu discipulado"), __jsx("option", {
@@ -5101,7 +5105,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 204,
       columnNumber: 25
     }
   }, "Isabela Amaro"), __jsx("option", {
@@ -5109,7 +5113,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 205,
       columnNumber: 25
     }
   }, "Matheus Amaro"), __jsx("option", {
@@ -5117,7 +5121,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 206,
       columnNumber: 25
     }
   }, "Felipe Ramos"), __jsx("option", {
@@ -5125,7 +5129,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 207,
       columnNumber: 25
     }
   }, "Silas Souza"), __jsx("option", {
@@ -5133,7 +5137,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 210,
       columnNumber: 25
     }
   }, "Elaine Jeremias ")), !redeLimpar && __jsx("select", {
@@ -5144,7 +5148,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 214,
       columnNumber: 23
     }
   }, __jsx("option", {
@@ -5152,7 +5156,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 220,
       columnNumber: 25
     }
   }, "Selecione seu discipulado"), __jsx("option", {
@@ -5160,7 +5164,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 221,
       columnNumber: 25
     }
   }, "Isabela Amaro"), __jsx("option", {
@@ -5168,7 +5172,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 222,
       columnNumber: 25
     }
   }, "Matheus Amaro"), __jsx("option", {
@@ -5176,7 +5180,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 223,
       columnNumber: 25
     }
   }, "Felipe Ramos"), __jsx("option", {
@@ -5184,7 +5188,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 224,
       columnNumber: 25
     }
   }, "Silas Souza"), __jsx("option", {
@@ -5192,21 +5196,21 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 227,
       columnNumber: 25
     }
   }, "Elaine Jeremias ")), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 230,
       columnNumber: 21
     }
   }), __jsx("label", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 231,
       columnNumber: 21
     }
   }, "Qual culto deseja ir?"), __jsx("select", {
@@ -5217,7 +5221,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228,
+      lineNumber: 232,
       columnNumber: 21
     }
   }, __jsx("option", {
@@ -5225,60 +5229,76 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
+      lineNumber: 238,
       columnNumber: 23
     }
-  }, "Selecione o culto"), qtdDomingoManha < qtdMAxima && __jsx("option", {
+  }, "Selecione o culto"), qtdDomingoManha < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qualculto ? __jsx("option", {
     value: "manha",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
-      columnNumber: 25
+      lineNumber: 243,
+      columnNumber: 41
     }
-  }, "S\xE1bado - 15hs"), qtdDomingoNoite < qtdMAxima && __jsx("option", {
+  }, "S\xE1bado - 15hs") : __jsx("option", {
+    value: "manha",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 243,
+      columnNumber: 90
+    }
+  }, "Ter\xE7a - 18hs")), qtdDomingoManha < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qualculto ? __jsx("option", {
     value: "noite",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
-      columnNumber: 25
+      lineNumber: 245,
+      columnNumber: 39
     }
-  }, "S\xE1bado - 17:30hs ")), __jsx("div", {
+  }, "S\xE1bado - 17:30hs ") : __jsx("option", {
+    value: "noite",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 245,
+      columnNumber: 92
+    }
+  }, "Ter\xE7a - 20hs "))), __jsx("div", {
     className: "vagas",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 265,
       columnNumber: 21
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283,
+      lineNumber: 285,
       columnNumber: 23
     }
-  }, "S\xE1bado 15:00hs -", qtdDomingoManha >= qtdMAxima && __jsx("small", {
+  }, "S\xE1bado 15:00hs", qtdDomingoManha >= qtdMAxima && __jsx("small", {
     className: "red",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286,
+      lineNumber: 288,
       columnNumber: 27
     }
   }, " vagas encerradas"), qtdDomingoManha < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qtdDomingoManha >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "resta", qtdDomingoManha != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "m")), qtdDomingoManha >= 0 && __jsx("small", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298,
+      lineNumber: 300,
       columnNumber: 31
     }
   }, " ", qtdMAxima - qtdDomingoManha), qtdDomingoManha >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "vaga", qtdDomingoManha != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "s")))), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
+      lineNumber: 311,
       columnNumber: 23
     }
   }, "S\xE1bado 17:30hs -", qtdDomingoNoite >= qtdMAxima && __jsx("small", {
@@ -5286,29 +5306,29 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312,
+      lineNumber: 314,
       columnNumber: 27
     }
   }, " vagas encerradas"), qtdDomingoNoite < qtdMAxima && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, qtdDomingoNoite >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "resta", qtdDomingoNoite != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "m")), qtdDomingoNoite >= 0 && __jsx("small", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324,
+      lineNumber: 326,
       columnNumber: 31
     }
   }, " ", qtdMAxima - qtdDomingoNoite), qtdDomingoNoite >= 0 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, " ", "vaga", qtdDomingoNoite != qtdMAxima - 1 && __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, "s"))))), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337,
+      lineNumber: 339,
       columnNumber: 21
     }
-  }), __jsx("button", {
+  }), botao === "Ativo" && __jsx("button", {
     onClick: salve,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338,
+      lineNumber: 341,
       columnNumber: 21
     }
   }, "Inscrever"), __jsx("a", {
@@ -5317,7 +5337,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339,
+      lineNumber: 343,
       columnNumber: 21
     }
   }, "Verifique a listagem")) : __jsx("p", {
@@ -5325,7 +5345,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344,
+      lineNumber: 348,
       columnNumber: 19
     }
   }, __jsx("img", {
@@ -5333,14 +5353,14 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345,
+      lineNumber: 349,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346,
+      lineNumber: 350,
       columnNumber: 21
     }
   }, "Carregando..."))) //   )}
@@ -5349,7 +5369,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361,
+      lineNumber: 365,
       columnNumber: 13
     }
   }, __jsx("p", {
@@ -5357,7 +5377,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362,
+      lineNumber: 366,
       columnNumber: 15
     }
   }, "Infelizmente todos os cultos presenciais ja esgotaram sua capacidade exigida por lei, mas acompanhe online pelas nossas redes sociais", __jsx("div", {
@@ -5365,7 +5385,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366,
+      lineNumber: 370,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -5373,7 +5393,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367,
+      lineNumber: 371,
       columnNumber: 19
     }
   }, __jsx("img", {
@@ -5382,7 +5402,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 368,
+      lineNumber: 372,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -5390,7 +5410,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370,
+      lineNumber: 374,
       columnNumber: 19
     }
   }, __jsx("img", {
@@ -5399,7 +5419,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371,
+      lineNumber: 375,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -5407,7 +5427,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 373,
+      lineNumber: 377,
       columnNumber: 19
     }
   }, __jsx("img", {
@@ -5416,7 +5436,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 374,
+      lineNumber: 378,
       columnNumber: 21
     }
   }))), __jsx("a", {
@@ -5425,7 +5445,7 @@ function Page() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377,
+      lineNumber: 381,
       columnNumber: 17
     }
   }, "Verifique a listagem dos cultos presenciais")))));
@@ -5436,13 +5456,13 @@ function Page() {
 /***/ }),
 
 /***/ 1:
-/*!********************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CLenovo%5CDocuments%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true ***!
-  \********************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMariana%20Ipolito%5CDesktop%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true ***!
+  \*****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CLenovo%5CDocuments%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CLenovo%5CDocuments%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CMariana%20Ipolito%5CDesktop%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CMariana%20Ipolito%5CDesktop%5CAgua-Viva%5Cpages%5Cindex.jsx&hotRouterUpdates=true!./");
 
 
 /***/ }),
